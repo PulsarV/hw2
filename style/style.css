@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input {
+    margin: 10px;
+}

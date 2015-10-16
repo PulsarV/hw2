@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+    <form method="post" action="{{ action_script }}">
+        {% for item in 1..item_count %}
+        <label>
+            {{ item_name }}{{ item }}: <input type="text" size="50" name="{{ item_value }}{{ item }}">
+        </label>
+        <br>
+        {% endfor %}
+        <input type="submit" value="Відправити">
+    </form>
+</body>
+</html>

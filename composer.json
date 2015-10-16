@@ -1,0 +1,17 @@
+{
+    "name": "home/hw2",
+    "description": "Homework #2",
+    "require": {
+        "twig/twig": "^1.22",
+        "amenadiel/jpgraph": "^3.6",
+        "eden/sqlite": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volodymyr Kravchuk",
+            "email": "pulsarv@rambler.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}
