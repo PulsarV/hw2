@@ -44,10 +44,10 @@ $pieChart = $factory->newChart("pie", $myPicture, $myData);
 
 /* Define the slice color */
 $pieChart->setSliceColor(0, array("R" => 255, "G" => 147, "B" => 79));
-$pieChart->setSliceColor(1, array("R" => 148, "G" => 223, "B" => 146));
-$pieChart->setSliceColor(2, array("R" => 255, "G" => 20, "B" => 147));
+$pieChart->setSliceColor(1, array("R" => 128, "G" => 255, "B" => 128));
+$pieChart->setSliceColor(2, array("R" => 255, "G" => 0, "B" => 255));
 $pieChart->setSliceColor(3, array("R" => 255, "G" => 255, "B" => 0));
-$pieChart->setSliceColor(4, array("R" => 148, "G" => 233, "B" => 246));
+$pieChart->setSliceColor(4, array("R" => 0, "G" => 255, "B" => 255));
 
 /* Enable shadow computing */
 $myPicture->setShadow(TRUE, array("X" => 3, "Y" => 3, "R" => 0, "G" => 0, "B" => 0, "Alpha" => 10));
