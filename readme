@@ -3,3 +3,9 @@
 Name:           Homework #2 for course "Advanced PHP"
 Author:         Volodymyr Kravchuk
 Creation date:  14/10/2015
+
+This project is designed to collect information about
+the libraries, which students use for their projects.
+
+Attention! for the script run you must install mysql 
+database from file db/database.sql

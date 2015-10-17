@@ -2,9 +2,9 @@
     "name": "home/hw2",
     "description": "Homework #2",
     "require": {
+        "php": ">=5.5.9",
         "twig/twig": "^1.22",
-        "amenadiel/jpgraph": "^3.6",
-        "eden/sqlite": "^4.0"
+        "szymach/c-pchart": "1.*"
     },
     "license": "MIT",
     "authors": [
